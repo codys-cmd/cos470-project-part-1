@@ -1,0 +1,6 @@
+Require both Pandas and PyTerrier to run.
+
+'experiment.py' doesn't require any command line arguments- so as long as the
+'Puzzles' directory exists with both 'Answer.json' and 'topics_1.json', it will
+run. As a heads up, the experiment might take a long time to run (it takes >30m for all 6 to run on my older laptop, but your mileage may vary). The program will create all of
+the indexes it needs, in addition to producing the six result files.
